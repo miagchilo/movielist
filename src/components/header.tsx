@@ -11,7 +11,7 @@ const Header = ()=> {
         <div className="flex justify-between mx-2 max-w-6xl sm:mx-auto items-center py-6">
             <div className="flex">
                 <MenuItem title={'HOME'} address={"/"} Icon={FaHome} />
-                <MenuItem title={'About'} address={"/about"} Icon={FaInfo} />
+                {/* <MenuItem title={'About'} address={"/about"} Icon={FaInfo} /> */}
             </div>
             <div className="flex items-center space-x-4"> 
               <DarkMode/>
